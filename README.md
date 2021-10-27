@@ -1,4 +1,5 @@
 # Assignment_3
+#usage
 As a database you can use any SQL database( postgresql, mysql, sqlite)
 Database should have at least one Table with name User, and columns: id, login, password, token
 User Table should contain at least 3 records
@@ -10,6 +11,6 @@ If provided login and password does not exist in the User Table, as a response r
 This route should receive as a parameter token value
 Token value needs to be passed over URL, 
 e.g. http://127.0.01:5000/protected?token=24230ifdsjfjdsklfj43943ut943
-This route should return html text: <h1>Hello, token which is provided is correct </h1>, if as a parameter RIGHT token value is passed
-This route should return html text: <h1>Hello, Could not verify the token </h1>, if as a parameter WRONG token value is passed
+This route should return html text: Hello, token which is provided is correct, if as a parameter RIGHT token value is passed
+This route should return html text: Hello, Could not verify the token, if as a parameter WRONG token value is passed
   
